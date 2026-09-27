@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "余計なリンク消します",
+  "version": "1.0.0",
+  "description": "ページ内のリンクを一時的に消します。ページを更新すると元に戻ります。",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "余計なリンク消します"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
